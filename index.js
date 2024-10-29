@@ -6,8 +6,8 @@ const partidosRoutes = require("./src/routes/partidos.routes");
 
 const app = express();
 const PORT = process.env.PORT || 4002;
-conectarBD();
 
+conectarBD();
 app.use(cors());
 app.use(bodyParser.json());
 
